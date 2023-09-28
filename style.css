@@ -1,0 +1,440 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    background-color:black;
+}
+
+.header{
+    position: sticky;
+    top: 0;
+    left: 0;
+    height: 8vh;
+    width: 100%;
+    /* background-color: rgb(224, 53, 53); */
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+.portfolio{
+    width: 30%;
+}
+.portfolio span {
+    font-size: 40px;
+}
+.portfolio .red{
+    color: rgb(253, 38, 38);
+}
+.header-items{
+    width: 60%;
+}
+.header-items ul{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    justify-content: space-around;
+    align-items: center;
+}
+.header-items ul li{
+    list-style: none;
+    cursor: pointer;
+}
+.header-items ul li:hover{
+    color:rgb(253, 38, 38) ;
+}
+.header-items ul li a{
+    text-decoration: none;
+    color: white;
+}
+#cross{
+    display: none;
+}
+#hamburger{
+    display: none;
+}
+.section-1{
+    background-image: url('image.webp');
+    height: 90vh;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+}
+.section-1-content{
+    width: 50%;
+    height: 100%;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.section-1-content span{
+    font-size: 20px;
+}
+.section-1-content h1{
+    font-size: 40px;
+    margin-top: 10px;
+}
+.section-1-content h3{
+    font-size: 27px;
+    margin: 10px 0;
+}
+.section-1-content .typing{
+    font-size: 40px;
+    color: rgb(253, 38, 38);
+}
+.section-1-content button{
+    margin-top: 10px;
+    font-size: 15px;
+    height: 6vh;
+    width: 20%;
+    cursor: pointer;
+    background-color:rgb(253, 38, 38) ;
+    color: white;
+    border-radius: 4px;
+}
+.section-1-content button:hover{
+    background-color: white;
+    color: black;
+}
+.section-1-img{
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+    height: 100%;
+}
+.section-1-img img{
+    width: 70%;
+    height: 100%;
+}
+.section-2{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 40px;
+}
+.section-2 h1{
+    font-size: 50px;
+}
+.section-2 h4{
+    font-size: 25px;
+    color: rgb(253, 38, 38);
+}
+.section-2-container{
+    display: flex;
+    margin-top: 20px;
+    align-items: center;
+    width: 100%;
+    height: 80%;
+}
+.section-2-img{
+    width: 40%;
+    display: flex;
+    height: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.section-2-img img{
+    width: 60%;
+}
+.section-2-content{
+    width: 60%;
+}
+.section-2-content{
+    padding-top: 10px;
+}
+.section-2-content button{
+    margin: 20px;
+    width: 20%;
+    height: 5vh;
+    cursor: pointer;
+    background-color:rgb(253, 38, 38) ;
+    color: white;
+    border-radius: 4px;
+}
+.section-2-content button:hover{
+    background-color: black;
+    color: white;
+}
+.typing2{
+    color: rgb(253, 38, 38);
+}
+.section-3{
+    color: white;
+    width: 100%;
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    padding-top: 20px;
+}
+.section-3 h2{
+    font-size: 50px;
+}
+.section-3 h3{
+    padding-top: 10px;
+    font-size: 25px;
+    color: rgb(253, 38, 38);
+}
+.section-3-container{
+    display: flex;
+    justify-content: space-around;
+    padding:40px 20px;
+}
+.section-3-items{
+    width: 27%;
+    height: 40vh;
+    background-color: rgb(40, 37, 37);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 4px;
+}
+.section-3-items i{
+    color: rgb(253, 38, 38);
+    padding: 15px;
+}
+.section-3-items h1{
+    padding: 15px;
+}
+.section-3-items h4{
+    width: 85%;
+    font-weight: 100;
+}
+.section-3-items:hover{
+    background-color:rgb(253, 38, 38) ;
+}
+.section-3-items:hover i{
+    color: white;
+}
+
+/* section 4 */
+.section-4{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: auto;
+}
+.section-4 h1{
+    font-size: 50px;
+    padding: 20px 0;
+}
+.section-4-container{
+    margin-top: 20px;
+    margin-bottom: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.section-4-des{
+    width: 45%;
+}
+.section-4-des h4{
+    font-size: 20px;
+    font-weight: 100;
+}
+.skills-set{
+    width: 45%;
+}
+.skills-set-items{
+    display: flex;
+    padding: 20px 0;
+    flex-direction: column;
+    width: 100%;
+}
+.lang{
+    display: flex;
+    justify-content: space-between;
+}
+.bar{
+    width: 100%;
+    height: 10px;
+    background-color: rgba(0, 0, 0, 0.209);
+    border-radius: 20px;
+    position: relative;
+}
+.bar span{
+    border-radius: 30px;
+    width: 50%;
+    height: 100%;
+    background-color: rgb(253, 38, 38);
+    position: absolute;
+}
+.bar .html{
+    width: 90%;
+    animation: html 3s;
+}
+@keyframes html {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 90%;
+    }
+}
+.bar .css{
+    width: 80%;
+    animation: css 3s;
+}
+@keyframes css {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 80%;
+    }
+}
+.bar .javascript{
+    width: 60%;
+    animation: javascript 3s;
+}
+@keyframes javascript {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 60%;
+    }
+}
+.bar .react{
+    width: 40%;
+    animation: react 3s;
+}
+@keyframes react {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: 40%;
+    }
+}
+.section-5{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: auto;
+}
+.section-5 h1{
+    font-size: 50px;
+    margin: 20px 0;
+}
+.section-5-container{
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.section-5-items{
+    width: 32.5%;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(40, 37, 37);
+    border-radius: 5px;
+}
+.section-5-items h2{
+    padding: 10px 0;
+    font-size: 25px;
+}
+.section-5-items img{
+    width: 100%;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    border-radius: 3px;
+}
+.section-5-items h3{
+    padding: 10px 10px;
+    font-weight: 100;
+}
+.section-5-items h4{
+    font-weight: 100;
+    padding: 5px 10px;
+}
+.section-5-items h4 a{
+    cursor: pointer;
+    color: white;
+    text-decoration: none;
+}
+.section-5-items h4 a:hover{
+    color: rgb(253, 38, 38);
+}
+
+/* section 6 */
+.section-6{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.section-6 h1{
+    font-size: 50px;
+    padding: 20px 0;
+}
+.section-6-container{
+    display:flex;
+    justify-content:space-around;
+}
+.section-6-des{
+    width: 45%;
+}
+.section-6-des h2{
+    font-size: 25px;
+    padding: 10px 0;
+}
+.section-6-des p{
+    font-size: 20px;
+    padding: 10px 0;
+}
+.section-6-des h3{
+    padding: 10px 0;
+    font-size: 22px;
+}
+.section-6-des h3 i{
+    color: rgb(253, 38, 38);
+}
+.section-6-des span{
+    font-weight: 100;
+    font-size: 20px;
+}
+.section-6-contact{
+    width: 45%;
+}
+.section-6-contact h2{
+    font-size: 25px;
+    padding: 10px 0;
+}
+.section-6-contact input{
+    width: 100%;
+    margin: 20px 0;
+    padding: 10px 10px;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+.section-6-contact button{
+    margin: 20px 0;
+    height: 6vh;
+    width: 20%;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(253, 38, 38);
+    color: white;
+}
+.section-6-contact button:hover{
+    background-color:yellowgreen;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
